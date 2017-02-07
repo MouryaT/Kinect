@@ -29,13 +29,17 @@ It might be issue with permissions, (check /etc/usb/...). This usually doesn't h
 except in _Virtual Machines_. It's difficult to get kinect working in virtual machine, 
 otherwise above steps will do for getting kinect to work.
 
+
+
 ## Kinect on ROS-Kinetic
 
 - Installing Drivers
 
 Install Openni_launch drivers to get started, other alternate is freenect drivers. 
 Try using tab completion, it also shows possible other drivers associated.
+
 `sudo apt-get install ros-kinetic-openni-launch`
+
 
 - Openni tutorials
 
